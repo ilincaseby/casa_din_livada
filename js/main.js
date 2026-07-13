@@ -165,6 +165,7 @@
     { src: "images/zona_de_luat_masa/fdea5a64-5db9-48c9-b291-0b53424a00b4.avif", cat: "living", cap: "Zona de luat masa" },
     { src: "images/kitchen/bbb9819d-f8d1-40e0-924c-959cc13973c3.avif", cat: "living", cap: "Bucătărie" },
     { src: "images/kitchen/df98f9c5-5207-40c4-847d-65aa40ea0799.avif", cat: "living", cap: "Bucătărie" },
+    { src: "images/zona_de_luat_masa/WhatsApp%20Image%202026-07-11%20at%2018.50.32.jpeg", cat: "living", cap: "Zona de luat masa" },
     { src: "images/backyard/ac628e73-68e5-47bf-b4ca-f1221109371a.avif", cat: "exterior", cap: "Casa" },
     { src: "images/exterior/fc8d3b57-85bf-4491-a7a4-44d80b33b99d.avif", cat: "exterior", cap: "Casa" },
     { src: "images/backyard/955c63e0-5406-4588-9794-495bfdc81fdb.avif", cat: "exterior", cap: "Foișorul" },
@@ -174,6 +175,9 @@
     { src: "images/more_photos/66d9fb62-17ad-42d7-8cfe-2adcbc682b0d.avif", cat: "exterior", cap: "Grătar & foc" },
     { src: "images/more_photos/af1f7695-c3a4-48fc-af3f-f8db88bc0ccf.avif", cat: "exterior", cap: "Grădina" },
     { src: "images/exterior/b57ce238-3759-4f5f-96c8-648c0c2233e4.avif", cat: "exterior", cap: "Casa seara" },
+    { src: "images/backyard/WhatsApp%20Image%202026-07-11%20at%2018.50.41.jpeg", cat: "exterior", cap: "Casa & curtea" },
+    { src: "images/backyard/WhatsApp%20Image%202026-07-11%20at%2018.50.35.jpeg", cat: "exterior", cap: "Foișorul toamna" },
+    { src: "images/backyard/WhatsApp%20Image%202026-07-11%20at%2018.50.39.jpeg", cat: "exterior", cap: "Grătar în curte" },
     { src: "images/backyard/f4526e26-a6bb-421c-87da-6c618d4088fb.avif", cat: "imprejurimi", cap: "Priveliște" },
     { src: "images/more_photos/b13f9f13-5cdc-479d-bbac-77af6825ebd3.avif", cat: "imprejurimi", cap: "Curcubeu peste vale" },
     { src: "images/more_photos/f54d2bea-d6aa-402f-9b56-3e5cee93ad6e.avif", cat: "imprejurimi", cap: "Dealuri împădurite" },
@@ -181,6 +185,12 @@
     { src: "images/bedroom3/6076f25f-7ace-4bb9-9f66-84b0538218c3.avif", cat: "imprejurimi", cap: "Priveliște din balcon" },
     { src: "images/backyard/2142ae9f-ef24-4cbc-92cf-658b3d0d86d2.avif", cat: "imprejurimi", cap: "Iarna la casă" },
     { src: "images/more_photos/ef58afbb-f364-4f98-a24e-eed58eed929f.avif", cat: "imprejurimi", cap: "Livada înflorită" },
+    { src: "images/backyard/1.jpeg", cat: "imprejurimi", cap: "Toamna la casă" },
+    { src: "images/backyard/WhatsApp%20Image%202026-07-11%20at%2018.50.30.jpeg", cat: "imprejurimi", cap: "Priveliște de primăvară" },
+    { src: "images/backyard/WhatsApp%20Image%202026-07-11%20at%2018.50.31.jpeg", cat: "imprejurimi", cap: "Vedere spre sat" },
+    { src: "images/backyard/WhatsApp%20Image%202026-07-11%20at%2018.50.33.jpeg", cat: "imprejurimi", cap: "Iarna în curte" },
+    { src: "images/backyard/WhatsApp%20Image%202026-07-11%20at%2018.50.34.jpeg", cat: "imprejurimi", cap: "Răsărit de iarnă" },
+    { src: "images/backyard/dacdws.jpeg", cat: "imprejurimi", cap: "Musafiri de la fermă" },
   ];
 
   const galTrack = $("#galleryTrack");
