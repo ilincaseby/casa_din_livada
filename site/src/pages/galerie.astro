@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Gallery from "../components/Gallery.astro";
+import Video from "../components/Video.astro";
+import photos from "../content/photos.json";
+import { business } from "../config/business";
+---
+<Layout title="Galeria casei și a livezii" description={`Fotografii reale ale camerelor, băilor, livingului, bucătăriilor, curții și anotimpurilor de la ${business.name}.`}>
+  <div class="wrap">
+    <header class="page-heading gallery-heading"><div><h1>Mai aproape,<br />fotografie cu fotografie.</h1><p>Casa, locurile comune și livada, în {photos.length} de perspective. Alege un spațiu sau lasă fotografiile să te plimbe prin toate.</p></div><a class="text-link" href="#tur">Vezi și turul video</a></header>
+    <Gallery />
+    <Video />
+  </div>
+</Layout>

@@ -1,0 +1,62 @@
+id,path,width,height,bytes
+1,images/backyard/1.jpeg,1200,1600,261906
+2,images/backyard/2142ae9f-ef24-4cbc-92cf-658b3d0d86d2.avif,1200,797,59502
+3,images/backyard/29642dfe-b7ff-4f4c-b6ea-db0d7089f65e.avif,1200,797,216594
+4,images/backyard/3f846334-76ad-492f-bda5-895ad70c63ae.avif,720,540,68552
+5,images/backyard/5fba34c5-3fa5-431c-968c-1a03dfec8abb.avif,1200,797,157000
+6,images/backyard/7648e20c-ec24-4d36-88f2-2bb39b533123.avif,720,540,79973
+7,images/backyard/955c63e0-5406-4588-9794-495bfdc81fdb.avif,720,540,51072
+8,images/backyard/WhatsApp Image 2026-07-11 at 18.50.30.jpeg,900,1600,365334
+9,images/backyard/WhatsApp Image 2026-07-11 at 18.50.31.jpeg,900,1600,299013
+10,images/backyard/WhatsApp Image 2026-07-11 at 18.50.33.jpeg,1600,1200,292947
+11,images/backyard/WhatsApp Image 2026-07-11 at 18.50.34.jpeg,1600,1200,410375
+12,images/backyard/WhatsApp Image 2026-07-11 at 18.50.35.jpeg,1200,1600,380995
+13,images/backyard/WhatsApp Image 2026-07-11 at 18.50.39.jpeg,900,1600,300263
+14,images/backyard/WhatsApp Image 2026-07-11 at 18.50.41.jpeg,1200,1600,431602
+15,images/backyard/ac628e73-68e5-47bf-b4ca-f1221109371a.avif,1200,900,120140
+16,images/backyard/b4374388-fb2d-47e5-84d8-cfa7037479e4.avif,720,540,87007
+17,images/backyard/dacdws.jpeg,1200,1600,206546
+18,images/backyard/e541bd34-a2be-496e-a60a-a63a08867db2.avif,720,540,99518
+19,images/backyard/f4526e26-a6bb-421c-87da-6c618d4088fb.avif,1200,797,123453
+20,images/balcony/8780381e-a733-480a-b1d6-f04689b5e155.avif,720,540,46609
+21,images/balcony/a669eccd-58ba-41d6-9b81-d95891ba3223.avif,720,478,34276
+22,images/balcony/b802461c-86c4-405b-a576-c40024d86c9d.avif,1200,900,147988
+23,images/bathroom1/c8b1d172-f03e-473a-a54c-5bf2f84ccd68.avif,1200,1807,23416
+24,images/bathroom2/00fe6624-171f-4d9b-877f-c5013c4ec724.avif,1200,797,38728
+25,images/bathroom3/2395d668-ddb9-45cd-8e0a-f76a636c34cb.avif,720,478,15141
+26,images/bedroom1/ad6b9e97-77ef-43c8-933e-3baee71d64f1.avif,1200,900,59558
+27,images/bedroom2/4744f520-97cb-47d0-9ee8-f15efd5d715c.avif,720,540,32791
+28,images/bedroom2/6e0c75a8-cd0a-472b-95c6-370ad5b2c3c5.avif,720,540,26727
+29,images/bedroom3/266497e8-55cc-40c8-8401-90d8a7ce20e6.avif,720,540,27259
+30,images/bedroom3/6076f25f-7ace-4bb9-9f66-84b0538218c3.avif,720,540,58367
+31,images/bedroom3/94e9d8c5-f546-4394-9d66-04788d4a13ed.avif,1200,900,71891
+32,images/bedroom4/453bdddc-e08f-4bd4-9625-b5697619ce7c.avif,1200,900,69488
+33,images/bedroom4/e139a17f-32a7-43c4-ac99-a3dca58efd4d.avif,720,481,8031
+34,images/bedroom4/fc975be4-39e0-42ac-8c00-f145151b383c.avif,720,481,12189
+35,images/exterior/42eb196c-7839-41ab-9e65-381bf772bd90.avif,1200,797,169082
+36,images/exterior/65754ebb-cec9-4c2c-8846-8da13de930fb.avif,720,404,39357
+37,images/exterior/7d6238d7-0941-43c2-ae7e-f2f9ee3d4e99.avif,720,404,50611
+38,images/exterior/8cbf5995-50e2-4245-bd9a-a4f415b2e7fd.avif,1200,900,163243
+39,images/exterior/910f12d4-1903-4f7e-b6e2-0371ac4df9be.avif,720,404,46411
+40,images/exterior/b57ce238-3759-4f5f-96c8-648c0c2233e4.avif,1200,901,35295
+41,images/exterior/c65d7fb6-f5fa-4453-b726-b8bb6c0a99a5.avif,720,478,37192
+42,images/exterior/e23b0d34-6bf7-47ff-996e-3f2ba49770c9.avif,720,540,55658
+43,images/exterior/e8b0f9b0-89df-41e7-ae58-d9604866d351.avif,720,540,46743
+44,images/exterior/fc8d3b57-85bf-4491-a7a4-44d80b33b99d.avif,1200,797,42311
+45,images/kitchen/bbb9819d-f8d1-40e0-924c-959cc13973c3.avif,720,540,20884
+46,images/kitchen/df98f9c5-5207-40c4-847d-65aa40ea0799.avif,720,540,31633
+47,images/living/3aa4625c-52cb-4173-b856-75221a3b98d7.avif,720,478,22471
+48,images/living/99f5fcb0-21df-464e-9a84-428a7113ce8c.avif,720,540,34215
+49,images/living/ba04ea87-5585-4d3f-a579-e83979d3dbb6.avif,1200,797,67000
+50,images/more_photos/0561dd85-d684-441d-b705-bc57adff9ded.avif,720,540,41591
+51,images/more_photos/66d9fb62-17ad-42d7-8cfe-2adcbc682b0d.avif,720,540,77100
+52,images/more_photos/8648760e-0f25-46e7-bc4d-d56c24522289.avif,720,478,9596
+53,images/more_photos/af1f7695-c3a4-48fc-af3f-f8db88bc0ccf.avif,720,1281,121731
+54,images/more_photos/b13f9f13-5cdc-479d-bbac-77af6825ebd3.avif,720,478,29507
+55,images/more_photos/cdffd5ff-3902-48ba-a797-7fbf8ad0472c.avif,720,405,45925
+56,images/more_photos/ef58afbb-f364-4f98-a24e-eed58eed929f.avif,720,404,39880
+57,images/more_photos/f54d2bea-d6aa-402f-9b56-3e5cee93ad6e.avif,720,1280,103617
+58,images/more_photos/f6f5e46d-e000-49d3-866f-84e3cdffb9f4.avif,720,1280,78835
+59,images/zona_de_luat_masa/WhatsApp Image 2026-07-11 at 18.50.32.jpeg,900,1600,184239
+60,images/zona_de_luat_masa/c62e4310-ec40-499d-9880-cffee1750ff0.avif,720,540,31856
+61,images/zona_de_luat_masa/fdea5a64-5db9-48c9-b291-0b53424a00b4.avif,720,478,20807

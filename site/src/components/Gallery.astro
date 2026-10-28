@@ -1,0 +1,32 @@
+---
+import photos from "../content/photos.json";
+import Photo from "./Photo.astro";
+import Icon from "./Icon.astro";
+const categories = ["Toate", ...new Set(photos.map((photo) => photo.category))];
+---
+<div data-gallery>
+  <div class="gallery-toolbar" hidden>
+    <div class="gallery-filters" aria-label="Filtrează fotografiile">
+      {categories.map((category, index) => <button data-filter={category} aria-pressed={index === 0}>{category}</button>)}
+    </div>
+    <p data-gallery-count aria-live="polite">{photos.length} fotografii</p>
+  </div>
+  <div class="gallery-grid">
+    {photos.map((photo, index) => <figure data-gallery-item data-category={photo.category}>
+      <a href={`/photos/${photo.id}-${photo.widths.at(-1)}.webp`} data-gallery-link data-caption={photo.alt}>
+        <Photo id={photo.id} eager={index < 3} sizes="(min-width: 1000px) 32vw, (min-width: 600px) 50vw, 100vw" />
+        <span class="photo-open" aria-hidden="true"><Icon name="external" /></span>
+      </a>
+      <figcaption>{photo.alt}</figcaption>
+    </figure>)}
+  </div>
+  <p data-gallery-empty hidden>Nu există fotografii în această categorie. Alege o altă categorie.</p>
+</div>
+<dialog class="lightbox" aria-label="Fotografie mărită" data-lightbox>
+  <div class="lightbox-top"><span data-lightbox-count></span><button class="icon-button" data-lightbox-close aria-label="Închide fotografia"><Icon name="close" /></button></div>
+  <div class="lightbox-stage"><img data-lightbox-image src="/photo-unavailable.svg" alt="" width="1200" height="900" /></div>
+  <div class="lightbox-bottom"><button class="icon-button" data-lightbox-prev aria-label="Fotografia precedentă"><Icon name="previous" /></button><p data-lightbox-caption aria-live="polite"></p><button class="icon-button" data-lightbox-next aria-label="Fotografia următoare"><Icon name="next" /></button></div>
+</dialog>
+<script>
+  import "../scripts/gallery";
+</script>

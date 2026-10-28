@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Photo from "../components/Photo.astro";
+import BookingLinks from "../components/BookingLinks.astro";
+import Icon from "../components/Icon.astro";
+import { business, locationLabel, mapsUrl } from "../config/business";
+import { toConfirm } from "../content/property";
+---
+<Layout title="Planifică un sejur" description={`Disponibilitate și rezervări pentru ${business.name}, ${locationLabel}, prin platformele confirmate. Informații practice înainte de plecare.`}>
+  <div class="wrap">
+    <header class="page-heading"><h1>Un sejur începe<br />cu o perioadă liberă.</h1><p>Disponibilitatea, tarifele și condițiile actuale se verifică direct pe platforma pe care alegi să rezervi.</p></header>
+    <section class="contact-grid" id="rezervare">
+      <div class="booking-panel"><h2>Alege platforma ta.</h2><p>Linkurile duc la anunțurile casei. Rezervarea se face acolo, nu pe acest site.</p><BookingLinks /><p class="fine-print">Nu preselectăm date și nu inițiem o rezervare în numele tău.</p></div>
+      <Photo id="aerial" eager />
+    </section>
+    <section class="location-section" id="locatie">
+      <div><h2>{business.location.village}, lângă {business.location.area}.</h2><p>{business.location.county}, România. Linkul către hartă deschide localitatea, nu un pin verificat al proprietății.</p><a class="text-link" href={mapsUrl} target="_blank" rel="noopener noreferrer">Vezi {business.location.village} pe Google Maps <Icon name="external" /><span class="sr-only"> (filă nouă)</span></a></div>
+      <div><h3>Ultima parte a drumului</h3><p>Solicită gazdei indicațiile exacte și starea drumului înainte de sosire, mai ales iarna. Recomandarea din site-ul anterior privind accesul cu 4×4 nu este încă verificată.</p><p>Adresa exactă și coordonatele nu sunt publicate în acest preview.</p></div>
+    </section>
+    <section class="details-section" id="informatii"><h2>Înainte de rezervare.</h2><ul class="practical-list">{toConfirm.map((text) => <li>{text}</li>)}</ul><aside class="notice"><h3>Despre această propunere</h3><p>Identitatea platformelor a fost confirmată de proprietarul proiectului. Detaliile sejurului, datele operatorului și drepturile de publicare sunt încă în verificare. Nu există formular de contact, plată sau disponibilitate simulată.</p><p>Contactul direct nu este activ până la validarea datelor. Pentru întrebări despre sejur, folosește mesageria platformei alese.</p></aside></section>
+  </div>
+</Layout>

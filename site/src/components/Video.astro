@@ -1,0 +1,15 @@
+---
+import { business } from "../config/business";
+import Photo from "./Photo.astro";
+import Icon from "./Icon.astro";
+---
+<section class="video-section" id="tur">
+  <div><h2>O altă perspectivă, în mișcare.</h2><p>Turul video asociat site-ului original: „{business.video.title}”. Conținutul integral urmează să fie reconfirmat înainte de publicare.</p><a class="text-link" href={business.video.url} target="_blank" rel="noopener noreferrer">Deschide pe YouTube <Icon name="external" /><span class="sr-only"> (filă nouă)</span></a><p class="fine-print">Playerul YouTube se încarcă doar la cererea ta și se conectează la un serviciu extern.</p></div>
+  <div class="video-frame" data-video data-embed={business.video.embedUrl} data-title={`Tur video ${business.name} — YouTube`}>
+    <Photo id="aerial" />
+    <button class="video-button" data-video-play hidden><Icon name="play" /> Încarcă turul video</button>
+  </div>
+</section>
+<script>
+  import "../scripts/video";
+</script>

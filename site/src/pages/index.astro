@@ -1,0 +1,38 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Photo from "../components/Photo.astro";
+import Icon from "../components/Icon.astro";
+import Mountain from "../components/Mountain.astro";
+import { business, locationLabel, platformLabel } from "../config/business";
+---
+<Layout title={`O casă între livadă și cer, în ${business.location.village}`} description={`${business.name}, ${locationLabel}. Explorează casa, livada și fotografiile, apoi verifică disponibilitatea pe platformele de rezervare.`}>
+  <section class="home-hero" aria-labelledby="hero-title" data-home-block>
+    <Mountain />
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 id="hero-title">La noi, livada<br />are vedere<br />la munte.</h1>
+        <p>O casă de vacanță în {business.location.village}, lângă {business.location.area}.<br class="desktop-break" /> Ferestre spre verde, loc pentru timp împreună.</p>
+        <div class="hero-actions"><a class="button" href="/casa/">Intră în casă <Icon /></a><a class="text-link" href="/contact/#rezervare">Planifică un sejur <Icon name="external" /></a></div>
+      </div>
+      <figure class="hero-photo">
+        <div class="photo-soft-edge"><Photo id="house" eager sizes="(min-width: 800px) 52vw, 100vw" /></div>
+        <figcaption><span>{business.name}</span><span>{locationLabel}</span></figcaption>
+      </figure>
+    </div>
+  </section>
+  <section class="wrap home-intro" data-home-block aria-labelledby="intro-title">
+    <h2 id="intro-title">Din casă, în livadă.<br />Din livadă, cu privirea departe.</h2>
+    <div><p>Pomii înfloriți, masa din foișor, lumina care intră în living. Aici, povestea locului se vede în fotografii — din interior până la ultimul colț de grădină.</p><a class="text-link" href="/casa/">Descoperă spațiile casei <Icon /></a></div>
+  </section>
+  <section class="wrap home-selection" data-home-block aria-labelledby="selection-title">
+    <div class="section-heading"><h2 id="selection-title">Câteva locuri în care să rămâi.</h2><a class="text-link" href="/galerie/">Toată galeria <Icon /></a></div>
+    <div class="photo-triptych">
+      <a href="/galerie/?categorie=Camere%20%C8%99i%20b%C4%83i"><figure><div class="photo-soft-edge"><Photo id="room-light" sizes="(min-width: 800px) 30vw, 100vw" /></div><figcaption><span>Dimineți cu ferestrele deschise</span><Icon name="external" /></figcaption></figure></a>
+      <a href="/galerie/?categorie=Spa%C8%9Bii%20comune"><figure><div class="photo-soft-edge"><Photo id="living" sizes="(min-width: 800px) 30vw, 100vw" /></div><figcaption><span>După-amiezi împreună</span><Icon name="external" /></figcaption></figure></a>
+      <a href="/galerie/?categorie=Casa%20%C8%99i%20livada"><figure><div class="photo-soft-edge"><Photo id="orchard" sizes="(min-width: 800px) 30vw, 100vw" /></div><figcaption><span>Și timp petrecut afară</span><Icon name="external" /></figcaption></figure></a>
+    </div>
+  </section>
+  <section class="stay-band" data-home-block>
+    <div class="wrap"><div><h2>Ne vedem în livadă?</h2><p>{platformLabel ? `Alege perioada ta pe ${platformLabel}.` : "Consultă informațiile de rezervare."}</p></div><a class="button button-light" href="/contact/#rezervare">Verifică disponibilitatea <Icon name="external" /></a></div>
+  </section>
+</Layout>

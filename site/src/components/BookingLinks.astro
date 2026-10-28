@@ -1,0 +1,13 @@
+---
+import { verifiedListings } from "../config/business";
+import Icon from "./Icon.astro";
+---
+<div class="booking-links">
+  {!verifiedListings.length && <p role="status">Platformele de rezervare nu sunt încă verificate. Nu se pot iniția rezervări din această propunere.</p>}
+  {verifiedListings.map((listing) => (
+    <a class="button" href={listing.url} target="_blank" rel="noopener noreferrer">
+      Vezi disponibilitatea pe {listing.label}<Icon name="external" />
+      <span class="sr-only"> (se deschide într-o filă nouă)</span>
+    </a>
+  ))}
+</div>

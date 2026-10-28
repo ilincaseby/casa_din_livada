@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Photo from "../components/Photo.astro";
+import Icon from "../components/Icon.astro";
+import { destinations } from "../content/property";
+---
+<Layout title="În jurul Branului" description="Puncte de pornire pentru explorarea zonei Bran: Castelul Bran, Parcul Național Piatra Craiului și Parcul Natural Bucegi, cu surse oficiale.">
+  <div class="wrap">
+    <header class="page-heading"><h1>Dincolo de poarta livezii.</h1><p>O zi în Bran sau o ieșire în natură. Câteva puncte de pornire, cu informația practică lăsată acolo unde este actualizată: la sursă.</p></header>
+    <figure class="landscape"><Photo id="balcony" eager sizes="100vw" /><figcaption>Priveliște de la balconul casei. Masivele din imagine nu sunt identificate topografic.</figcaption></figure>
+    <div class="destinations">{destinations.map((destination) => <article>
+      <div class="destination-name"><span>{destination.type}</span><h2>{destination.name}</h2></div>
+      <div><h3>{destination.title}</h3><p>{destination.description}</p><a class="text-link" href={destination.url} target="_blank" rel="noopener noreferrer">{destination.label} <Icon name="external" /><span class="sr-only"> (filă nouă)</span></a></div>
+    </article>)}</div>
+    <aside class="notice"><h2>Înainte să pornești</h2><p>Verifică vremea, accesul și regulile actuale ale obiectivului. Nu prezentăm distanțe sau timpi de parcurs de la casă până la confirmarea adresei exacte. Informațiile de pe site-urile oficiale au fost consultate la 28 octombrie 2026.</p></aside>
+  </div>
+</Layout>

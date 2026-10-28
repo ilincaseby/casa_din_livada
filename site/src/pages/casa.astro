@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Photo from "../components/Photo.astro";
+import Icon from "../components/Icon.astro";
+import { practicalDetails, toConfirm } from "../content/property";
+import { business } from "../config/business";
+---
+<Layout title="Casa, din interior spre livadă" description={`Explorează dormitoarele, spațiile comune, băile și curtea de la ${business.name} în fotografii reale.`}>
+  <div class="wrap">
+    <header class="page-heading"><h1>O casă de descoperit,<br />dinăuntru în afară.</h1><p>Dormitoare luminoase, spații pentru stat împreună și o livadă care schimbă peisajul de la un anotimp la altul.</p></header>
+    <section class="space-feature" id="camere">
+      <Photo id="room-light" eager />
+      <div><h2>Ferestre spre verde.</h2><p>Lemnul cald, perdelele ușoare și lumina naturală dau tonul dormitoarelor. În galerie găsești mai multe unghiuri, ca să vezi spațiile așa cum sunt.</p><a class="text-link" href="/galerie/?categorie=Camere%20%C8%99i%20b%C4%83i">Explorează camerele și băile <Icon /></a></div>
+    </section>
+    <section class="space-feature reversed" id="despre">
+      <Photo id="living" />
+      <div><h2>Locul în care<br />se adună toată lumea.</h2><p>Livingul și masa de lângă ferestre păstrează grădina în privire. Fotografiile bucătăriilor și ale zonei de dining completează imaginea spațiilor comune.</p><a class="text-link" href="/galerie/?categorie=Spa%C8%9Bii%20comune">Vezi spațiile comune <Icon /></a></div>
+    </section>
+    <section class="space-feature">
+      <Photo id="gazebo" />
+      <div><h2>O masă în foișor.<br />O pauză în livadă.</h2><p>Foișorul de lemn, grătarul zidit și leagănul fac parte din curtea fotografiată. Primăvara aduce pomii în floare; iarna schimbă întreaga perspectivă.</p><a class="text-link" href="/galerie/?categorie=Casa%20%C8%99i%20livada">Ieși în grădină <Icon /></a></div>
+    </section>
+    <section class="details-section" id="facilitati">
+      <h2>Casa, pe scurt.</h2>
+      <dl class="facts">{practicalDetails.map((item) => <div><dt>{item.label}</dt><dd>{item.detail}</dd></div>)}</dl>
+      <aside class="notice"><h3>De verificat pentru sejurul tău</h3><p>Fotografiile arată spațiile, nu garantează configurația sau serviciile pentru orice rezervare. În această propunere, detaliile de mai jos nu sunt încă validate:</p><ul>{toConfirm.map((text) => <li>{text}</li>)}</ul><a class="text-link" href="/contact/#rezervare">Consultă informațiile de pe platformă <Icon /></a></aside>
+    </section>
+  </div>
+</Layout>

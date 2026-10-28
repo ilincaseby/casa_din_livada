@@ -1,0 +1,379 @@
+[
+  {
+    "id": "house",
+    "source": "ac628e73-68e5-47bf-b4ca-f1221109371a.avif",
+    "alt": "Fațada albă a casei, balcoane și curte verde",
+    "category": "Casa și livada",
+    "original": "images/backyard/ac628e73-68e5-47bf-b4ca-f1221109371a.avif",
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "aerial",
+    "source": "910f12d4-1903-4f7e-b6e2-0371ac4df9be.avif",
+    "alt": "Casa văzută de sus, între pomii înfloriți",
+    "category": "Casa și livada",
+    "original": "images/exterior/910f12d4-1903-4f7e-b6e2-0371ac4df9be.avif",
+    "width": 720,
+    "height": 404,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "orchard",
+    "source": "29642dfe-b7ff-4f4c-b6ea-db0d7089f65e.avif",
+    "alt": "Pomi înfloriți în livada casei",
+    "category": "Casa și livada",
+    "original": "images/backyard/29642dfe-b7ff-4f4c-b6ea-db0d7089f65e.avif",
+    "width": 1200,
+    "height": 797,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "garden",
+    "source": "3f846334-76ad-492f-bda5-895ad70c63ae.avif",
+    "alt": "Pajiștea din curte și pomii fructiferi",
+    "category": "Casa și livada",
+    "original": "images/backyard/3f846334-76ad-492f-bda5-895ad70c63ae.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "gazebo",
+    "source": "955c63e0-5406-4588-9794-495bfdc81fdb.avif",
+    "alt": "Masa lungă din foișorul de lemn",
+    "category": "Casa și livada",
+    "original": "images/backyard/955c63e0-5406-4588-9794-495bfdc81fdb.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "outside",
+    "source": "7648e20c-ec24-4d36-88f2-2bb39b533123.avif",
+    "alt": "Foișorul și grătarul în curtea verde",
+    "category": "Casa și livada",
+    "original": "images/backyard/7648e20c-ec24-4d36-88f2-2bb39b533123.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "swing",
+    "source": "e541bd34-a2be-496e-a60a-a63a08867db2.avif",
+    "alt": "Leagăn de lemn la umbra pomilor",
+    "category": "Casa și livada",
+    "original": "images/backyard/e541bd34-a2be-496e-a60a-a63a08867db2.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "barbecue",
+    "source": "66d9fb62-17ad-42d7-8cfe-2adcbc682b0d.avif",
+    "alt": "Grătarul zidit și scaune din bușteni",
+    "category": "Casa și livada",
+    "original": "images/more_photos/66d9fb62-17ad-42d7-8cfe-2adcbc682b0d.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "room-light",
+    "source": "94e9d8c5-f546-4394-9d66-04788d4a13ed.avif",
+    "alt": "Dormitor cu tavan de lemn și ferestre spre verdeață",
+    "category": "Camere și băi",
+    "original": "images/bedroom3/94e9d8c5-f546-4394-9d66-04788d4a13ed.avif",
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "room-balcony",
+    "source": "ad6b9e97-77ef-43c8-933e-3baee71d64f1.avif",
+    "alt": "Dormitor cu pat dublu și ușă spre balcon",
+    "category": "Camere și băi",
+    "original": "images/bedroom1/ad6b9e97-77ef-43c8-933e-3baee71d64f1.avif",
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "room-window",
+    "source": "4744f520-97cb-47d0-9ee8-f15efd5d715c.avif",
+    "alt": "Pat dublu lângă fereastra deschisă spre grădină",
+    "category": "Camere și băi",
+    "original": "images/bedroom2/4744f520-97cb-47d0-9ee8-f15efd5d715c.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "room-wood",
+    "source": "453bdddc-e08f-4bd4-9625-b5697619ce7c.avif",
+    "alt": "Dormitor cu mobilier din lemn și perdele albe",
+    "category": "Camere și băi",
+    "original": "images/bedroom4/453bdddc-e08f-4bd4-9625-b5697619ce7c.avif",
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "bath-one",
+    "source": "c8b1d172-f03e-473a-a54c-5bf2f84ccd68.avif",
+    "alt": "Baie cu duș și fereastră",
+    "category": "Camere și băi",
+    "original": "images/bathroom1/c8b1d172-f03e-473a-a54c-5bf2f84ccd68.avif",
+    "width": 1200,
+    "height": 1807,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "bath-two",
+    "source": "00fe6624-171f-4d9b-877f-c5013c4ec724.avif",
+    "alt": "Baie cu cabină de duș și lavoar",
+    "category": "Camere și băi",
+    "original": "images/bathroom2/00fe6624-171f-4d9b-877f-c5013c4ec724.avif",
+    "width": 1200,
+    "height": 797,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "bath-three",
+    "source": "2395d668-ddb9-45cd-8e0a-f76a636c34cb.avif",
+    "alt": "Interior de baie în tonuri de bej și maro",
+    "category": "Camere și băi",
+    "original": "images/bathroom3/2395d668-ddb9-45cd-8e0a-f76a636c34cb.avif",
+    "width": 720,
+    "height": 478,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "living",
+    "source": "ba04ea87-5585-4d3f-a579-e83979d3dbb6.avif",
+    "alt": "Lumina după-amiezii în living și în zona de luat masa",
+    "category": "Spații comune",
+    "original": "images/living/ba04ea87-5585-4d3f-a579-e83979d3dbb6.avif",
+    "width": 1200,
+    "height": 797,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "living-view",
+    "source": "99f5fcb0-21df-464e-9a84-428a7113ce8c.avif",
+    "alt": "Canapea și ferestre mari în living",
+    "category": "Spații comune",
+    "original": "images/living/99f5fcb0-21df-464e-9a84-428a7113ce8c.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "dining",
+    "source": "c62e4310-ec40-499d-9880-cffee1750ff0.avif",
+    "alt": "Masa de lângă ferestre, cu vedere spre livadă",
+    "category": "Spații comune",
+    "original": "images/zona_de_luat_masa/c62e4310-ec40-499d-9880-cffee1750ff0.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "kitchen",
+    "source": "df98f9c5-5207-40c4-847d-65aa40ea0799.avif",
+    "alt": "Bucătărie cu blat de lucru, aragaz și masă",
+    "category": "Spații comune",
+    "original": "images/kitchen/df98f9c5-5207-40c4-847d-65aa40ea0799.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "kitchen-two",
+    "source": "bbb9819d-f8d1-40e0-924c-959cc13973c3.avif",
+    "alt": "Spațiu de bucătărie cu chiuvetă și mașină de spălat",
+    "category": "Spații comune",
+    "original": "images/kitchen/bbb9819d-f8d1-40e0-924c-959cc13973c3.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "balcony",
+    "source": "b802461c-86c4-405b-a576-c40024d86c9d.avif",
+    "alt": "Balconul deschis spre vale și dealurile din depărtare",
+    "category": "Priveliști și anotimpuri",
+    "original": "images/balcony/b802461c-86c4-405b-a576-c40024d86c9d.avif",
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "view",
+    "source": "f4526e26-a6bb-421c-87da-6c618d4088fb.avif",
+    "alt": "Priveliște peste pomii înfloriți, spre casele din vale",
+    "category": "Priveliști și anotimpuri",
+    "original": "images/backyard/f4526e26-a6bb-421c-87da-6c618d4088fb.avif",
+    "width": 1200,
+    "height": 797,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "winter",
+    "source": "fc8d3b57-85bf-4491-a7a4-44d80b33b99d.avif",
+    "alt": "Casa și curtea acoperite de zăpadă",
+    "category": "Priveliști și anotimpuri",
+    "original": "images/exterior/fc8d3b57-85bf-4491-a7a4-44d80b33b99d.avif",
+    "width": 1200,
+    "height": 797,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "winter-sun",
+    "source": "e23b0d34-6bf7-47ff-996e-3f2ba49770c9.avif",
+    "alt": "Soare printre copaci în curtea înzăpezită",
+    "category": "Priveliști și anotimpuri",
+    "original": "images/exterior/e23b0d34-6bf7-47ff-996e-3f2ba49770c9.avif",
+    "width": 720,
+    "height": 540,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "autumn",
+    "source": "1.jpeg",
+    "alt": "Culori de toamnă pe dealul din spatele foișorului",
+    "category": "Priveliști și anotimpuri",
+    "original": "images/backyard/1.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  },
+  {
+    "id": "rainbow",
+    "source": "b13f9f13-5cdc-479d-bbac-77af6825ebd3.avif",
+    "alt": "Curcubeu peste vale, fotografiat de la proprietate",
+    "category": "Priveliști și anotimpuri",
+    "original": "images/more_photos/b13f9f13-5cdc-479d-bbac-77af6825ebd3.avif",
+    "width": 720,
+    "height": 478,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "spring",
+    "source": "ef58afbb-f364-4f98-a24e-eed58eed929f.avif",
+    "alt": "Livada înflorită în lumina primăverii",
+    "category": "Priveliști și anotimpuri",
+    "original": "images/more_photos/ef58afbb-f364-4f98-a24e-eed58eed929f.avif",
+    "width": 720,
+    "height": 404,
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "id": "winter-gazebo",
+    "source": "WhatsApp Image 2026-07-11 at 18.50.33.jpeg",
+    "alt": "Foișorul și leagănul sub zăpadă",
+    "category": "Priveliști și anotimpuri",
+    "original": "images/backyard/WhatsApp Image 2026-07-11 at 18.50.33.jpeg",
+    "width": 1600,
+    "height": 1200,
+    "widths": [
+      360,
+      720,
+      1200
+    ]
+  }
+]

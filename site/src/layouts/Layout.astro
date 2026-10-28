@@ -1,0 +1,73 @@
+---
+import "../styles/global.css";
+import "@fontsource/manrope/latin-400.css";
+import "@fontsource/manrope/latin-ext-400.css";
+import "@fontsource/manrope/latin-500.css";
+import "@fontsource/manrope/latin-ext-500.css";
+import "@fontsource/manrope/latin-600.css";
+import "@fontsource/manrope/latin-ext-600.css";
+import { business, locationLabel } from "../config/business";
+import Icon from "../components/Icon.astro";
+interface Props { title: string; description: string; }
+const { title, description } = Astro.props;
+const nav = [
+  ["/casa/", "Casa"], ["/galerie/", "Galerie"], ["/imprejurimi/", "Împrejurimi"], ["/contact/", "Contact"],
+];
+const active = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f7f8f6" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content={description} />
+    <title>{title} — {business.name}</title>
+    <meta property="og:title" content={`${title} — ${business.name}`} />
+    <meta property="og:description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <a class="skip-link" href="#continut">Sari la conținut</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/" aria-label={`${business.name} — Acasă`}>
+          <svg width="36" height="42" viewBox="0 0 36 42" fill="none" aria-hidden="true"><path d="M5 22 18 9l13 13M9 19v17h18V19M15 36V25h6v11M18 3v3M5 7l4 4M31 7l-4 4" stroke="currentColor" stroke-width="1.5"/><path d="M2 40h32" stroke="currentColor"/></svg>
+          <span>{business.name}<small>{locationLabel}</small></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Navigare principală">
+          {nav.map(([href, label]) => <a href={href} aria-current={active === href ? "page" : undefined}>{label}</a>)}
+        </nav>
+        <a class="header-book" href="/contact/#rezervare">Planifică un sejur <Icon name="external" /></a>
+        <button class="menu-toggle" aria-label="Deschide meniul" aria-expanded="false" aria-controls="mobile-menu" hidden><Icon name="menu" /></button>
+      </div>
+      <nav class="no-js-nav wrap" aria-label="Navigare mobilă fără JavaScript">
+        {nav.map(([href, label]) => <a href={href} aria-current={active === href ? "page" : undefined}>{label}</a>)}
+      </nav>
+    </header>
+    <dialog id="mobile-menu" class="menu-dialog" aria-label="Navigare principală">
+      <div class="menu-top"><span>{business.name}</span><button class="icon-button" data-menu-close aria-label="Închide meniul"><Icon name="close" /></button></div>
+      <nav aria-label="Navigare mobilă">
+        <a href="/">Acasă</a>
+        {nav.map(([href, label]) => <a href={href} aria-current={active === href ? "page" : undefined}>{label}<Icon /></a>)}
+      </nav>
+      <a class="button" href="/contact/#rezervare">Planifică un sejur <Icon /></a>
+      <p>{locationLabel}</p>
+    </dialog>
+    <main id="continut"><slot /></main>
+    <footer class="site-footer">
+      <div class="wrap footer-top">
+        <div><a class="footer-brand" href="/">{business.name}</a><p>{locationLabel} · {business.location.county}</p></div>
+        <nav aria-label="Navigare subsol">{nav.map(([href, label]) => <a href={href}>{label}</a>)}</nav>
+      </div>
+      <div class="wrap footer-bottom">
+        <span>Propunere de design · {business.mode === "preview" ? "Preview local, nepublicat" : "În curs de verificare"}</span>
+        <a href="/contact/#informatii">Informații înainte de rezervare</a>
+      </div>
+    </footer>
+    <script>
+      import "../scripts/site";
+    </script>
+  </body>
+</html>

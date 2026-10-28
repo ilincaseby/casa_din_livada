@@ -1,0 +1,21 @@
+---
+import photos from "../content/photos.json";
+interface Props { id: string; eager?: boolean; sizes?: string; class?: string; }
+const { id, eager = false, sizes = "(min-width: 800px) 50vw, 100vw", class: className } = Astro.props;
+const photo = photos.find((item) => item.id === id);
+if (!photo) throw new Error(`Unknown photograph: ${id}`);
+const largest = photo.widths.at(-1);
+---
+<img
+  class={className}
+  src={`/photos/${photo.id}-${largest}.webp`}
+  srcset={photo.widths.map((width) => `/photos/${photo.id}-${width}.webp ${width}w`).join(", ")}
+  sizes={sizes}
+  width={photo.width}
+  height={photo.height}
+  alt={photo.alt}
+  loading={eager ? "eager" : "lazy"}
+  fetchpriority={eager ? "high" : "auto"}
+  decoding="async"
+  data-photo
+/>
